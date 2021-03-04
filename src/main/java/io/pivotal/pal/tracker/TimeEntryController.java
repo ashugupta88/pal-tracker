@@ -12,7 +12,7 @@ import java.util.List;
 @RestController
 public class TimeEntryController {
 
-    public TimeEntryRepository timeEntryRepository;
+    private TimeEntryRepository timeEntryRepository;
 
     public TimeEntryController(TimeEntryRepository timeEntryRepository) {
         this.timeEntryRepository = timeEntryRepository;
